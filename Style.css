@@ -1,0 +1,94 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.con
+{
+  padding-top: 10px;
+}
+#info 
+{
+    float: left;
+}
+.con
+{
+    background-image: url("Smu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.con
+{
+    margin: auto;
+    padding: 50px;
+   color:white;
+}
+#fom input
+{
+    margin-left: 100px;
+    
+}
+
+#fom .sub
+{
+    margin-left: 195px;
+     padding: 10px;
+
+}
+
+#fom #Submit
+{
+    margin-left: 270px;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    font-size: 10px;
+}
+ #fom #ta
+ {
+     margin-left: 300px;
+ }
+ 
+ #fom #Submit
+ {
+     margin-left: 340px;
+
+ }
+ 
+ sup
+ {
+	 font-size:20px;
+	 color:red;
+ }
+
+ .h1 
+{
+	position:absolute;
+	left:350px;
+}
+.ageArea 
+{
+	position:absolute;
+	top:115px;
+	left:350px;
+}
+.genArea 
+{
+	position:absolute;
+	top:155px;
+	left:350px;
+}
+.emA
+{
+	position:absolute;
+	top:200px;
+	left:350px;
+}
+.h1
+{
+	color:red;
+}
+.h1
+{
+	display:none;
+}

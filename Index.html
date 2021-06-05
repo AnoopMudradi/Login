@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="con">
+      <div id="info">
+    <h3>Enter your name     <sup>*</sup></h3><br>
+	
+     <h3>Enter your age      <sup>*</sup></h3><br>
+     <h3>Enter your gender   <sup>*</sup>  </h3><br>
+     <h3>Enter your email id <sup>*</sup> </h3><br>
+     <h3>Enter your phone number</h3>
+
+      </div>
+    <form id="fom" action="http://localhost/Projects/Insert.php" method="POST">
+    <input type="text" name="name" id="name" required><br>
+	<h2 class="h1" > Enter your name  </h2><br><br>
+    <input type="number" name="age" id="Age" required><br> 
+		<h2 class="h1 ageArea" >Enter your age </h2><br>
+    <input type="text" name="gen" id="gen" required>  <br> 
+	<h2 class="h1 genArea" >Enter your gender </h2><br> 
+    <input type="email" name="email" id="em" required><br> <br>
+	<h2 class="h1 emA" >Enter your email </h2><br>
+    <input type="phone" name="phone" id="phone" required><br> <br>
+    <textarea name="ta" id="ta" class="sub"></textarea><br> 
+    <button id="Submit" name="sub"> Submit</button>
+    </form>
+
+    </div>
+</body>
+</html>
